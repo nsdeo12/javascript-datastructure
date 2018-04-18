@@ -1,0 +1,23 @@
+{
+  "name": "tdd-stack",
+  "version": "1.0.0",
+  "description": "tdd of stack",
+  "main": "stack.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha":"5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -R spec --recursive test"
+  },
+  "keywords": [
+    "stack",
+    "javascript",
+    "tdd"
+  ],
+  "author": "nilakantha singh deo",
+  "license": "ISC"
+}
