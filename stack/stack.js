@@ -27,6 +27,11 @@ class Stack{
         return this._stack[this._length-1];
     }
 }
+
+var test=new Stack();
+test.push(33);
+var x=JSON.parse(test);
+console.log(x,"<<==stack")
 module.exports={
     Stack:Stack
 }
