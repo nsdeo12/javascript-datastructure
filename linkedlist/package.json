@@ -1,0 +1,17 @@
+{
+  "name": "linkedlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mean.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec --recursive test"
+  },
+  "author": "nildeo",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0"
+  }
+}
